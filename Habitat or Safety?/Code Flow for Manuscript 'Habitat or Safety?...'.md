@@ -1,7 +1,7 @@
----
-author: Molly M Kressler
-date: 8 March 2023 
----
+
+Molly M Kressler
+8 March 2023 
+
 ---
 
 **This document illustrates the workflow for the anlyses in the manuscript titled *'Habitat or safety? Drivers and management implications of juvenile lemon shark space use in mangrove nursery'*** 
