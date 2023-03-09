@@ -39,7 +39,7 @@ Manuscript 'Habitat or safety? Drivers and management implications of juvenile l
 **All analyses and outcomes can be conducted and/or produced from these starting six data sets.**
 The data sets will be described in no particular order. They can be found in the folder 'data' on the manuscript repo. [remember to put in the link here]
 
-- Detection data, collected and provided by Evan Byrnes: ![[EB2020e_noaccel_manuscript 1.csv]]![[EB2019e_noaccel_manuscript 1.csv]]
+- Detection data, collected and provided by Evan Byrnes: ![[EB2020e_noaccel_manuscript.csv]]![[EB2019e_noaccel_manuscript 1.csv]]
 	- Acoustic telemetry data 
 	- 2019 - 2020
 - Habitat data, collected by Drone Adventures in partnerhsip with Save Our Seas Foundation and the Bimini Biological Field Station Foundation: 
