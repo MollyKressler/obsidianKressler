@@ -24,9 +24,21 @@ All the analyses can be performed using the six provided datasets if the code fl
 
 Manuscript 'Habitat or safety? Drivers and management implications of juvenile lemon shark space use in mangrove nursery'
 
-**1.*** 'detectiondata_KresslerTrevailetal_inprep.R' 
-**2.** 
+R code files can be found [https://github.com/MollyKressler/habitatorsafetylemonsharks_ms.git]. 
 
+To run all analyses run the code files in this order: 
+1. STEP1detectiondata_KresslerTrevailetal_inprep.R [https://github.com/MollyKressler/habitatorsafetylemonsharks_ms/blob/34fa126d62a6ce7eb77a48530e8eb176f9e9ff4a/STEP1detectiondata_KresslerTrevail_inprep.r]
+2. STEP2detectionranges_buffers_KresslerTrevailetal_inprep.R
+3. STEP3habitathexagongrid_of_studysite_KresslerTrevailetal_inprep.R
+4. STEP4pseudodetections_KresslerTrevailetal_inprep.R
+5. STEP5modellingcode_KresslerTrevailetal_inprep.R
+6. STEP6evaluate_and_predict_KresslerTrevailetal_inprep.R
+7. STEP7_finalfigures.R
+
+Additionally, two supplmentary R files are provided. 
+1. determining_ghosts_hours_thresholds.R
+2. justifying7pseudos_KresslerTrevailetal_inprep.R
+These files perform analyses not crucial to the final results but nescessary for holistic interpretation of the choices made in data preparation and modelling. 
 
 ---
 
@@ -39,30 +51,25 @@ Manuscript 'Habitat or safety? Drivers and management implications of juvenile l
 **All analyses and outcomes can be conducted and/or produced from these starting six data sets.**
 The data sets will be described in no particular order. They can be found in the folder 'data' on the manuscript repo. [remember to put in the link here]
 
-- Detection data, collected and provided by Evan Byrnes: ![[EB2020e_noaccel_manuscript.csv]]![[EB2019e_noaccel_manuscript 1.csv]]
+- Detection data
 	- Acoustic telemetry data 
 	- 2019 - 2020
 - Habitat data, collected by Drone Adventures in partnerhsip with Save Our Seas Foundation and the Bimini Biological Field Station Foundation: 
-	- provded as a shapefile, ESRI
+	- provded as a shapefile, ESRI, by Matthew Smukall
 	- open using the 'sf' package in R
 	- Habitat is classified in vectors
 - Center point of the cental mangrove forest int he North Bimini estuary
-	- provided as a shapefile, KML
+	- provided as a shapefile, KML, produced by Molly Kressler using Google Earth
 	- open using the 'sf' package in R
 - Bounding box which extends beyodn the habitat data coverage, 'bigger box'
-	- provided as a shapefile, ESRI
+	- provided as a shapefile, ESRI, produced by Molly Kressler using Google Earth
 	- open using the 'sf' package in R
 - Tidal data 
-	- downloaded from the USA National Oceanographic and Atmospheric Association public website. 
+	- downloaded from the USA National Oceanographic and Atmospheric Association public website, by Molly Kressler
 	- collated into years, 2019 & 2020
 - Bimini land countours
-	-  provided as a shapefile, ESRI
+	-  provided as a shapefile, ESRI, by Matthew Smukall
 	- open using the 'sf' package in R
-
-{'r'} 
-testing<-testing
-{'r'}
-
 
 
 ---
