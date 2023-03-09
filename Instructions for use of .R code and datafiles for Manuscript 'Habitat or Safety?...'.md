@@ -1,5 +1,6 @@
 
-Instructions fro Using the code and data files associated with the manuscript *'Habitat or safety? Drivers and management implications of juvenile lemon shark space use in mangrove nursery'*** .
+Instructions for using the code and data files associated with the manuscript *'Habitat or safety? Drivers and management implications of juvenile lemon shark space use in mangrove nursery'*** .
+
 Molly M Kressler
 8 March 2023 
 
