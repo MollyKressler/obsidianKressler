@@ -27,15 +27,22 @@ Manuscript 'Habitat or safety? Drivers and management implications of juvenile l
 R code files can be found [https://github.com/MollyKressler/habitatorsafetylemonsharks_ms.git]. 
 
 To run all analyses run the code files in this order: 
-1. STEP1detectiondata_KresslerTrevailetal_inprep.R [https://github.com/MollyKressler/habitatorsafetylemonsharks_ms/blob/34fa126d62a6ce7eb77a48530e8eb176f9e9ff4a/STEP1detectiondata_KresslerTrevail_inprep.r]
-2. STEP2detectionranges_buffers_KresslerTrevailetal_inprep.R
+1. STEP1detectiondata_KresslerTrevailetal_inprep.R 
+	https://github.com/MollyKressler/habitatorsafetylemonsharks_ms/blob/34fa126d62a6ce7eb77a48530e8eb176f9e9ff4a/STEP1detectiondata_KresslerTrevail_inprep.r
+2. STEP2detectionranges_buffers_KresslerTrevailetal_inprep.R 
+	https://github.com/MollyKressler/habitatorsafetylemonsharks_ms/blob/34fa126d62a6ce7eb77a48530e8eb176f9e9ff4a/STEP2detectionranges_buffers_KresslerTrevailetal_inprep.r
 3. STEP3habitathexagongrid_of_studysite_KresslerTrevailetal_inprep.R
+	https://github.com/MollyKressler/habitatorsafetylemonsharks_ms/blob/main/STEP3habitathexagongrid_of_studysite_KresslerTrevailetal_inprep.r
 4. STEP4pseudodetections_KresslerTrevailetal_inprep.R
+	https://github.com/MollyKressler/habitatorsafetylemonsharks_ms/blob/main/STEP4pseudodetections_KresslerTrevailetal_inprep.R
 5. STEP5modellingcode_KresslerTrevailetal_inprep.R
+	https://github.com/MollyKressler/habitatorsafetylemonsharks_ms/blob/main/STEP5modellingcode_KresslerTrevailetal_inprep.R
 6. STEP6evaluate_and_predict_KresslerTrevailetal_inprep.R
+	https://github.com/MollyKressler/habitatorsafetylemonsharks_ms/blob/main/STEP6evaluate_and_predict_KresslerTrevailetal_inprep.R
 7. STEP7_finalfigures.R
+	https://github.com/MollyKressler/habitatorsafetylemonsharks_ms/blob/main/STEP7_finalfigures.R
 
-Additionally, two supplmentary R files are provided. 
+Additionally, two supplementary R files are provided. 
 1. determining_ghosts_hours_thresholds.R
 2. justifying7pseudos_KresslerTrevailetal_inprep.R
 These files perform analyses not crucial to the final results but nescessary for holistic interpretation of the choices made in data preparation and modelling. 
@@ -49,11 +56,13 @@ Manuscript 'Habitat or safety? Drivers and management implications of juvenile l
 #data #modelling #analysis
 
 **All analyses and outcomes can be conducted and/or produced from these starting six data sets.**
-The data sets will be described in no particular order. They can be found in the folder 'data' on the manuscript repo. [remember to put in the link here]
+The data sets will be described in no particular order, for details and attributions please see drop downs. Data sets can be found in the folder 'data' on the manuscript repo. 
 
 - Detection data
 	- Acoustic telemetry data 
 	- 2019 - 2020
+	- 2019 and part of 2020 provided by Evan Byrnes
+	- part of 2020 provided by Matthew Smukall and Clemency White
 - Habitat data, collected by Drone Adventures in partnerhsip with Save Our Seas Foundation and the Bimini Biological Field Station Foundation: 
 	- provded as a shapefile, ESRI, by Matthew Smukall
 	- open using the 'sf' package in R
